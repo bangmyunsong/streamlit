@@ -20,17 +20,12 @@ st.set_page_config(
 # CSS로 폰트 설정
 st.markdown(f"""
 <style>
-    @font-face {{
-        font-family: 'CustomFont';
-        src: url('fonts/NanumGothic.ttf') format('truetype');
-    }}
-    
     * {{
-        font-family: 'CustomFont', {FONT_FAMILY}, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif !important;
+        font-family: {FONT_FAMILY}, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif !important;
     }}
     
     .stMarkdown, .stText, .stTitle, .stHeader, .stSelectbox, .stMultiselect {{
-        font-family: 'CustomFont', {FONT_FAMILY}, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif !important;
+        font-family: {FONT_FAMILY}, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif !important;
     }}
     
     .main-header {{
